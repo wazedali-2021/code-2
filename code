@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter a number");
+    scanf("%d",&a);
+    int TOTAL=result(a);
+    printf("total:%d",TOTAL);
+}
+int result(int num)
+{
+    return num*num;
+}
